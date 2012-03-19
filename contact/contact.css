@@ -1,0 +1,101 @@
+/* CSS Document */
+@font-face {
+    font-family: 'EnglishEssayRegular';
+    src: url('english_essay-webfont.eot');
+    src: url('english_essay-webfont.eot?#iefix') format('embedded-opentype'),
+         url('english_essay-webfont.woff') format('woff'),
+         url('english_essay-webfont.ttf') format('truetype'),
+         url('english_essay-webfont.svg#EnglishEssayRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'MonospaceTypewriterRegular';
+    src: url('MonospaceTypewriter-webfont.eot');
+    src: url('MonospaceTypewriter-webfont.eot?#iefix') format('embedded-opentype'),
+         url('MonospaceTypewriter-webfont.woff') format('woff'),
+         url('MonospaceTypewriter-webfont.ttf') format('truetype'),
+         url('MonospaceTypewriter-webfont.svg#MonospaceTypewriterRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+	background:#FFF;
+	font-family:MonospaceTypewriterRegular;
+	align:center;
+}
+
+#formWrap #form {
+	width:502px;
+	border:1px solid #636;	
+	padding:0px;
+	margin:auto;
+	overflow:auto;
+	/*padding:10px;*/
+	height:320px;
+	-moz-border-radius:5px 5px 5px 5px;
+	-moz-box-shadow:0px 0px 5px #636;
+	-webkit-border-radius:5px 5px 5px 5px;
+	-webkit-box-shadow:0px 0px 5px #636;
+	
+}
+.input {
+	margin:10px;
+	}
+.detail {
+	border:1px solid #ccc;	
+	margin:0px;
+	width:470px;
+	padding:5px;
+	border-radius:5px 5px 5px 5px;
+}
+.detail:focus {
+	border:1px solid #636;	
+	outline:none;
+}
+.mess { 
+	border:1px solid #ccc;	
+	overflow:auto;
+	width:470px;
+	max-width:470px;
+	margin:0px;
+	display:block;
+	padding:5px;
+	height:170px;
+	border-radius:5px 5px 5px 5px;
+}
+.mess:focus {
+	border:1px solid #636;	
+	outline:none;
+}
+#submit {
+	padding:5px;	
+	float:right;
+	display:block;
+	margin:0px;
+	margin-right:5px;
+	background-color:#fff;
+	border:1px solid #ccc;
+	font-family:MonospaceTypewriterRegular;
+	border-radius:5px 5px 5px 5px;
+}
+#submit:hover{
+	background-color:#ccc;
+	border:1px solid #636;
+	color:#636;	
+}
+.submit {
+	margin-right:5px;
+	height: 20px;
+	diplay:block;
+	padding:0px;
+	
+}
+
+.defaultText { font-family:MonospaceTypewriterRegular; }
+.defaultTextActive { color: #a1a1a1; font-style: italic; }
+
+.error {color:#F00;}
