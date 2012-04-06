@@ -88,6 +88,15 @@
 
         <?php if (function_exists('fumb_breadcrumbs')) fumb_breadcrumbs(); ?>
 
+		
+
+<div class="navigation">
+
+    <div class="alignleft"><?php echo dbdb_prev_page_link(); ?></div>
+
+    <div class="alignright"><?php echo dbdb_next_page_link(); ?></div>
+
+</div>
 
  </div>
 
