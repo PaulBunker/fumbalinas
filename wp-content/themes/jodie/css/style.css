@@ -17,8 +17,19 @@ body {
 	font-size:14px;
 	background: url(../img/background.jpg) no-repeat;
 }
-@media screen and (max-width:980px) {  body {background-position:-100px -480px;}}
-@media screen and (max-width:1300px) {  body {background-position:-80px -260px;}}
+#girl {background: transparent url(../img/Girlbig.png) top right no-repeat;}
+@media screen and (max-width:980px) {  
+	body {background-position:-100px -480px;}
+	#girl{background: transparent}
+}
+@media screen and (max-width:1200px){
+	#girl{
+		background: transparent url(../img/Girlbig.png) top right no-repeat;
+		background-position-y: -100px;
+		}
+}
+@media screen and (max-width:1300px) { body {background-position:-80px -260px;}}
+
 body, button, input, select, textarea { font-family: sans-serif; color: #222; }
 
 ::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
@@ -213,7 +224,7 @@ list-style-position:inside;
 #nav-utility ul li { float: left; position: relative; }
 #nav-utility ul li a { display: block; float: left; padding: 2px 6px; }
 
-
+#crumbs { position: absolute; top: 250px; left:85px; font-family: 'MonospaceTypewriterRegular'; font-size:10px;}
 
 /* =============================================================================
    Content
