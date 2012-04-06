@@ -17,8 +17,18 @@ body {
 	font-size:14px;
 	background: url(../img/background.jpg) no-repeat;
 }
-@media screen and (max-width:980px) {  body {background-position:-100px -480px;}}
-@media screen and (max-width:1300px) {  body {background-position:-80px -260px;}}
+#girl {background: transparent url(../img/Girlbig.png) top right no-repeat;}
+@media screen and (max-width:980px) {  
+	body {background-position:-100px -480px;}
+	#girl{background: transparent}
+}
+@media screen and (max-width:1200px){
+	#girl{
+		background: transparent url(../img/Girlbig.png) top right no-repeat;
+		}
+}
+@media screen and (max-width:1300px) { body {background-position:-80px -260px;}}
+
 body, button, input, select, textarea { font-family: sans-serif; color: #222; }
 
 ::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
