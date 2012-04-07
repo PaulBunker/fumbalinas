@@ -397,7 +397,7 @@ function dbdb_prev_page_link() {
 
     if ( isset($post->post_parent) && $post->post_parent > 0 ) {
 
-        $children = get_pages('&sort_column=post_date&sort_order=asc&child_of='.$post->post_parent.'&parent='.$post->post_parent);
+        $children = get_pages('&sort_column=menu_order&sort_order=asc&child_of='.$post->post_parent.'&parent='.$post->post_parent);
 
     };
 
@@ -437,7 +437,7 @@ function dbdb_next_page_link() {
 
     if ( isset($post->post_parent) && $post->post_parent > 0 ) {
 
-        $children = get_pages('&sort_column=post_date&sort_order=asc&child_of='.$post->post_parent.'&parent='.$post->post_parent);
+        $children = get_pages('&sort_column=menu_order&sort_order=asc&child_of='.$post->post_parent.'&parent='.$post->post_parent);
 
     };
 
